@@ -1,0 +1,30 @@
+{
+  "name": "cordova-ios-session-description-handler",
+  "version": "0.0.0",
+  "description": "SIP.js Session Description Handler (SDH) implementation for support of Cordova/iOS",
+  "main": "CordovaIOSSessionDescriptionHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesUnwin/cordova-ios-session-description-handler.git"
+  },
+  "keywords": [
+    "SIP.js",
+    "cordova",
+    "iOS",
+    "session",
+    "description",
+    "handler"
+  ],
+  "author": "Wesley Unwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesUnwin/cordova-ios-session-description-handler/issues"
+  },
+  "homepage": "https://github.com/WesUnwin/cordova-ios-session-description-handler#readme",
+  "dependencies": {
+    "sip.js": "^0.11.0"
+  }
+}
