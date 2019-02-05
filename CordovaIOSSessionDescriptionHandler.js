@@ -1,6 +1,6 @@
 'use strict';
 
-import SIP from 'sip.js';
+const SIP = require('sip.js');
 
 /**
  * A custom SIP.js session description handler that acts as a plugin to SIP.js to
@@ -740,5 +740,5 @@ class CordovaIOSSessionDescriptionHandler extends SIP.SessionDescriptionHandler 
   }
 }
 
-export default CordovaIOSSessionDescriptionHandler;
+module.exports = CordovaIOSSessionDescriptionHandler;
 
