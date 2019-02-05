@@ -11,7 +11,7 @@ npm install --save cordova-ios-session-description-handler
 ## Usage
 
 ```javascript
-const CordovaIOSSDH = require('cordova-ios-session-description-handler).default;
+const CordovaIOSSDH = require('cordova-ios-session-description-handler').default;
 
 const config = {};
 
