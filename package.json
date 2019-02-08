@@ -2,13 +2,14 @@
   "name": "cordova-ios-session-description-handler",
   "version": "0.0.2",
   "description": "SIP.js Session Description Handler (SDH) implementation for support of Cordova/iOS",
-  "main": "CordovaIOSSessionDescriptionHandler.js",
+  "main": "./dist/CordovaIOSSessionDescriptionHandler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WesUnwin/cordova-ios-session-description-handler.git"
+    "url": "git+https://github.com/iotum/cordova-ios-session-description-handler.git"
   },
   "keywords": [
     "SIP.js",
@@ -21,10 +22,14 @@
   "author": "Wesley Unwin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WesUnwin/cordova-ios-session-description-handler/issues"
+    "url": "https://github.com/iotum/cordova-ios-session-description-handler/issues"
   },
-  "homepage": "https://github.com/WesUnwin/cordova-ios-session-description-handler#readme",
+  "homepage": "https://github.com/iotum/cordova-ios-session-description-handler#readme",
   "dependencies": {
     "sip.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
