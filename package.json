@@ -1,6 +1,6 @@
 {
   "name": "cordova-ios-session-description-handler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SIP.js Session Description Handler (SDH) implementation for support of Cordova/iOS",
   "main": "./dist/CordovaIOSSessionDescriptionHandler.js",
   "scripts": {
